@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background-color: black;
+  width: 100%;
+  height:100%;
+
 }
 
 .App-logo {
@@ -36,3 +39,52 @@
     transform: rotate(360deg);
   }
 }
+.moviecard{
+  display: flex;
+  width :10px;
+  
+}
+
+
+.cardt{
+ font-size: 15px;
+ text-align: center;
+ width: 100%;
+ height: 100%;
+
+}
+/* .moviecard{
+  text-align: center;
+} */
+.starss{
+  width: 98%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+/* .form-group{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+
+} */
+input{
+  width: 600px;
+  height: 35px ;
+  border-radius: 20px;
+}
+.fawzi{
+ 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wis{
+  width: 1200px;
+  height: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ }
