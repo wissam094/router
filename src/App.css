@@ -88,3 +88,10 @@ input{
  display: flex;
  flex-wrap: wrap;
  }
+ .description
+{
+  color : black;
+  background-color: gray;
+  padding : 50px ;
+  
+}

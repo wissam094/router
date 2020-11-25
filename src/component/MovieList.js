@@ -32,9 +32,8 @@ export const MovieList = (props) => {
        
   
 <div className='wis'>
-{props.Movie.filter(el=>el.titre.toUpperCase().includes(titre.toUpperCase())).filter(el=>el.rate>=rate).map(el=><div>
-    <Link to={`/movie/${el.title}`}>
-   <MovieCard  titre={el.titre} rate={el.rate} img={el.img} {...props}/>  </Link> </div>)}
+{props.Movies.filter(el=>el.titre.toUpperCase().includes(titre.toUpperCase())).filter(el=>el.rate>=rate).map((el,index)=><div key={index}> <MovieCard  titre={el.titre} rate={el.rate} img={el.img} /> </div>)}
+     
        
            
         </div>

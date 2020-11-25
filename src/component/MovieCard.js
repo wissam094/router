@@ -10,7 +10,7 @@ export  const MovieCard =(props)=>{
 
 <Card style={{ width: '18rem' }}>
     
-                    <Card.Img width="200px" heigh="200px" variant="top" src={props.img} />
+<Link to={`/movie/${props.titre}`}>  <Card.Img width="200px" heigh="200px" variant="top" src={props.img} /></Link>
                     <Card.Body>
                       
                     {/* <Route path={`${props.match.path}`} */}
